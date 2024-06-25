@@ -1,0 +1,73 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Roboto';
+}
+.comments-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+}
+.add-comment-section {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.comments-form-container {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  font-size: 54px;
+  color: #1e293b;
+}
+.desc {
+  font-size: 20px;
+  color: #475569;
+  font-weight: 500;
+}
+.name-container {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-color: #475569;
+  border-radius: 5px;
+}
+.comments-container {
+  padding: 10px;
+  border-color: #475569;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.add-comment-btn {
+  background-color: #0284c7;
+  color: #ffffff;
+  border-radius: 5px;
+  height: 35px;
+  width: 150px;
+  margin-top: 20px;
+  border-color: transparent;
+  cursor: pointer;
+}
+.horiz {
+  color: black;
+  width: 80%;
+}
+.count {
+  background-color: #0284c7;
+  color: #ffffff;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+.adding-comments-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
